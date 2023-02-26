@@ -5,14 +5,14 @@ import { fadeIn, staggerContainer } from '../utils/motion';
 
 const Testimonials = () => {
   return (
-    <section className="bg-gray-900">
+    <section className="bg-gray-900 w-full mt-24">
         <div className="gradient-02 z-0" />
         <motion.div 
             variants={staggerContainer}
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.25 }}
-            className="w-full px-4 py-20 mx-auto text-center max-w-7xl md:w-4/5 lg:w-4/6"
+            className="max-w-[1240px] mx-auto px-12 py-20 text-center"
         >
 
             <motion.h1 

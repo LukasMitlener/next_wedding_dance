@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { socials } from '../constants';
+import { SocialIcon } from 'react-social-icons';
 
 import styles from '../styles';
 import { footerVariants } from '../utils/motion';
@@ -21,22 +21,26 @@ const Footer = () => (
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
 
         <div className="flex items-center justify-between flex-wrap gap-4">
-          <h4 className="font-extrabold text-[24px] text-grey-700">
+          <h4 className="font-extrabold text-[24px] text-secondary-color">
             SVATEBNÍ TANCE
           </h4>
           <p className="font-normal text-[14px] text-grey-700 opacity-50">
             Copyright © 2023 Svatební tance. All rights reserved.
           </p>
 
-          <div className="flex gap-4">
-            {socials.map((social) => (
-              <img
-                key={social.name}
-                src={social.url}
-                alt={social.name}
-                className="w-[24px] h-[24px] object-contain cursor-pointer"
-              />
-            ))}
+          <div className="flex gap-2">
+            <SocialIcon 
+                        url="https://www.facebook.com"
+                        fgColor="#8D5CC7"
+                        bgColor="transparent" />
+            <SocialIcon 
+                        url="https://www.youtube.com/"
+                        fgColor="#8D5CC7"
+                        bgColor="transparent" />
+            <SocialIcon 
+                        url="https://www.instagram.com/lukas.mitlener/"
+                        fgColor="#8D5CC7"
+                        bgColor="transparent" />
           </div>
         </div>
       </div>

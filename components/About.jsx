@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion';
 import { fadeIn, staggerContainer } from '../utils/motion';
-import Image from 'next/image'
 import paja from '../public/pajamin.jpg'
 
 const About = () => {
@@ -17,7 +16,7 @@ const About = () => {
       >
         <div className='px-4 py-12'>
           <h2>
-              <span className="bg-transparent bg-clip-border font-bold xl:bg-clip-text xl:text-transparent xl:bg-gradient-to-r from-teal-400 to-rose-300">CO NABÍZÍM</span>
+              <span className="uppercase tracking-[20px] bg-transparent bg-clip-border font-black xl:bg-clip-text xl:text-transparent xl:bg-gradient-to-r from-green-400 to-purple-500">kdo jsem a co nabízím</span>
           </h2>
         </div>
 
@@ -25,8 +24,9 @@ const About = () => {
             <div className='flex flex-col justify-center md:items-start w-full'>
               <motion.img 
                 variants={fadeIn('right', 'tween', 0.2, 1)}
-                className='w-full object-cover rounded-lg' src={paja} alt="lyže Jove u Baltu" >
-
+                className='w-full object-cover rounded-lg' 
+                src={paja} 
+                alt="profilové foto" >
               </motion.img>
             </div>
             <motion.div 
