@@ -11,7 +11,7 @@ const About = () => {
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
+        viewport={{ once: true, amount: 0.25 }}
         className='max-w-[1240px] mx-auto px-12'
       >
         <div className='px-4 py-12'>
@@ -25,15 +25,11 @@ const About = () => {
               <motion.img 
                 variants={fadeIn('right', 'tween', 0.2, 1)}
                 className='w-full object-cover rounded-lg' 
-                src={paja} 
+                src="https://scontent.fprg4-1.fna.fbcdn.net/v/t31.18172-8/17854704_10208702283216248_1090032344822088610_o.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=iDVopEwqeq8AX_OjLrE&_nc_ht=scontent.fprg4-1.fna&oh=00_AfDUXuObRoJ2HqQj6qDatmi4TBTye6x8fKbS2Hukp5dxvg&oe=6425682C"
                 alt="profilové foto" >
               </motion.img>
             </div>
-            <motion.div 
-              variants={fadeIn('left', 'tween', 0.2, 1)}
-              className='px-0 md:px-10'
-            >
-              
+            <div className='px-0 md:px-10'>
                 <p>Mou snahou a cílem bylo vyrobit kolečkové lyže pro skate, 
                   které odpovídají pocitově lyžování na sněhu a dá se na nich 
                   jezdit kdekoliv při bezúdržbovém provozu.  
@@ -60,7 +56,7 @@ const About = () => {
                   Lyže prošli zátěžovou zkoužkou, když se mnou ujeli 500Km k Baltu a zpět. <br /> <br /><a href="https://www.youtube.com/watch?v=av3Dsnsy-3s&ab_channel=lyzeJOVE" className="text-main-blue" title='500km k Baltu na kolečkových lyžích JOVE'>Více ve videu</a>
                 </p>
               
-            </motion.div>
+            </div>
         </div>
 
         

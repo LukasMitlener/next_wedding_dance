@@ -1,7 +1,8 @@
 'use client';
-
+import Image from 'next/image'
 import { motion } from 'framer-motion';
 import { fadeIn, staggerContainer } from '../utils/motion';
+import kamca from '../public/kamca.jpg'
 
 const Testimonials = () => {
   return (
@@ -27,9 +28,9 @@ const Testimonials = () => {
             <motion.div
                 variants={fadeIn('up', 'tween', 0.3, 1)}
             >
-                <div className="mx-auto mb-3 h-24 w-24 rounded-full object-cover shadow-lg"><img src="https://scontent.fprg4-1.fna.fbcdn.net/v/t39.30808-6/314716455_10227882831840304_8484623534451319056_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=uzlJlZeLX1QAX8__bDT&_nc_ht=scontent.fprg4-1.fna&oh=00_AfBlKYs3lZENrIV1Qcim4tOadwF5xBhuuF4Ue6u-nG4_ag&oe=63EC93E6" alt="Kamila" /></div>
+                <Image className='mx-auto mb-3 h-24 w-24 rounded-full object-cover shadow-lg'  src={kamca} alt="Kamila" />
                 <p className="text-base font-medium text-gray-200">Kamča</p>
-                <p className="text-xs font-medium text-gray-400">CEO, Birds</p>
+                <p className="text-xs font-medium text-gray-400">HR specialist</p>
             </motion.div>
         </motion.div>
     </section>
