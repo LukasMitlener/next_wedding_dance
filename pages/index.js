@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Navbar1 from "../components/Navbar1"
 import Hero1 from "../components/Hero1"
 import About from "../components/About"
+import Lektor from "../components/Lektor"
 import Testimonials1 from "../components/Testimonials1"
 import Blog from "../components/Blog"
 import Features from "../components/Features"
@@ -27,9 +28,10 @@ export default function Home() {
       <Navbar1 />
       <Hero1 />
       <About />
+      <Lektor />
       <Blog />
-      <Testimonials1 />
       <Features />
+      <Testimonials1 />
       <Cta1 />
       <Footer />
     </div>
