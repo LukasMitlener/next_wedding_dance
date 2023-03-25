@@ -13,7 +13,7 @@ const Footer = () => (
     whileInView="show"
     className={`${styles.xPaddings} py-8 relative`}
   >
-    <div className="footer-gradient" />
+    
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
       
 

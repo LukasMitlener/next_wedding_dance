@@ -16,7 +16,7 @@ const About = () => {
       >
         <div className='px-4 py-12'>
           <h2>
-              <span className="uppercase tracking-[20px] bg-transparent bg-clip-border font-black xl:bg-clip-text xl:text-transparent xl:bg-gradient-to-r from-green-400 to-purple-500">kdo jsem a co nabízím</span>
+              <span className="uppercase tracking-[20px] bg-transparent bg-clip-border font-black xl:bg-clip-text xl:text-transparent xl:bg-gradient-to-r from-green-400 to-purple-500">Naše lektorka</span>
           </h2>
         </div>
 
