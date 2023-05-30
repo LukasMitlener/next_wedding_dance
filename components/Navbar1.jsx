@@ -12,27 +12,27 @@ const Navbar1 = () => (
     whileInView="show"
     className={`${styles.xPaddings} py-8 relative`}
   >
-    <div className="absolute w-[50%] inset-0 gradient-01" />
+    
     <div
       className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
     >
-      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-secondary-color">
-        SVATEBNÍ TANCE
+      <h2 className="font-great-vibes font-extrabold text-grey-900 text-[32px] leading-[30.24px]">
+        Svatební tance
       </h2>
       {/* 💑 ❤️💒 🤵 👰 💐 😊 😂 🥰 */}
       
       <div className="flex items-center mt-4 space-x-2 sm:mt-0">
               <SocialIcon 
                         url="https://www.facebook.com"
-                        fgColor="#8D5CC7"
+                        fgColor="#8BD6D6"
                         bgColor="transparent" />
               <SocialIcon 
                         url="https://www.youtube.com/"
-                        fgColor="#8D5CC7"
+                        fgColor="#8BD6D6"
                         bgColor="transparent" />
               <SocialIcon 
                         url="https://www.instagram.com/lukas.mitlener/"
-                        fgColor="#8D5CC7"
+                        fgColor="#8BD6D6"
                         bgColor="transparent" />
       </div>
     </div>

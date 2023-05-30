@@ -6,8 +6,8 @@ import kamca from '../public/kamca.jpg'
 
 const Testimonials = () => {
   return (
-    <section className="bg-gray-900 w-full mt-24">
-        <div className="gradient-02 z-0" />
+    <section className="w-full mt-24 bg-h-color/30">
+        
         <motion.div 
             variants={staggerContainer}
             initial="hidden"
@@ -18,7 +18,7 @@ const Testimonials = () => {
 
             <motion.h1 
                 variants={fadeIn('up', 'tween', 0.2, 1)}
-                className="mt-3 mb-10 text-xl font-extrabold text-white md:leading-snug md:text-3xl"
+                className="mt-3 mb-10 text-xl font-extrabold text-black md:leading-snug md:text-3xl"
             >
                 “Implementation is a breeze, particularly because the team at Hellonext is
                 <span className="bg-transparent bg-clip-border xl:bg-clip-text xl:text-transparent xl:bg-gradient-to-r from-green-400 to-purple-500"> very fast to respond and help </span>
@@ -30,7 +30,7 @@ const Testimonials = () => {
             >
                 <Image className='mx-auto mb-3 h-24 w-24 rounded-full object-cover shadow-lg'  src={kamca} alt="Kamila" />
                 <p className="text-base font-medium text-gray-200">Kamča</p>
-                <p className="text-xs font-medium text-gray-400">HR specialist</p>
+                <p className="text-xs font-medium text-gray-400">Účastnice kurzu</p>
             </motion.div>
         </motion.div>
     </section>

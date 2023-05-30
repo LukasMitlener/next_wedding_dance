@@ -14,15 +14,15 @@ const Footer = () => (
     className={`${styles.xPaddings} py-8 relative`}
   >
     
-    <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
+    <div className="max-w-[1240px] mx-auto flex flex-col gap-8">
       
 
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
 
         <div className="flex items-center justify-between flex-wrap gap-4">
-          <h4 className="font-extrabold text-[24px] text-secondary-color">
-            SVATEBNÍ TANCE
+          <h4 className="font-great-vibes font-extrabold text-[32px] text-h-color">
+            Svatební tance
           </h4>
           <p className="font-normal text-[14px] text-grey-700 opacity-50">
             Copyright © 2023 Svatební tance. All rights reserved.
@@ -31,15 +31,15 @@ const Footer = () => (
           <div className="flex gap-2">
             <SocialIcon 
                         url="https://www.facebook.com"
-                        fgColor="#8D5CC7"
+                        fgColor="#8BD6D6"
                         bgColor="transparent" />
             <SocialIcon 
                         url="https://www.youtube.com/"
-                        fgColor="#8D5CC7"
+                        fgColor="#8BD6D6"
                         bgColor="transparent" />
             <SocialIcon 
                         url="https://www.instagram.com/lukas.mitlener/"
-                        fgColor="#8D5CC7"
+                        fgColor="#8BD6D6"
                         bgColor="transparent" />
           </div>
         </div>

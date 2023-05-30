@@ -16,7 +16,7 @@ const About = () => {
       >
         <div className='px-4 py-12'>
           <h2>
-              <span className="uppercase bg-transparent bg-clip-border font-black xl:bg-clip-text xl:text-transparent xl:bg-gradient-to-r from-green-400 to-purple-500">Co nabízím?</span>
+              <span className="uppercase tracking-[20px] bg-clip-border font-black ">Co nabízíme?</span>
           </h2>
         </div>
 
@@ -30,29 +30,20 @@ const About = () => {
               </motion.img>
             </div>
             <div className='px-0 md:px-10'>
-              <p>
-                Už žádné nudné, předvídatelné svatební tance! Naše originální kurzy nabízejí zábavné taneční rutiny, které svatebčany nejen zaujmou, ale také roztancují. 💃
-              </p>
-              
-              <br />
-              <p>
-                Hledáte něco, co překvapí vaše hosty a roztancuje celou svatební společnost? Pak jste na správném místě! Přinášíme kurzy na netradiční, zábavné a moderní svatební tance, které udělají z vašeho svatebního dne ten nejlepší zážitek. 🕺💃
-              </p>
-              <br />
-              <p>
-                💥 Co nabízíme? 💥
-                <br />
-                Svatební tance na míru: Vyberte si z našeho širokého repertoáru tanečních stylů, od hip-hopu a elektronické hudby až po pop, nebo nám navrhněte vlastní taneční směs!
-                Profesionální taneční lektorka: Naši zkušení tanečníci vás a vaše hosty naučí nejen nové kroky, ale také jak tancovat s radostí a sebevědomím.
-                Taneční scénky: Překvapte svatebčany originálními tanečními vystoupeními, které rozproudí atmosféru a vtáhnou i ty nejzdráhavější hosty do tance!
-                🌟 Proč si zvolit náš kurz? 🌟
-
-                Nezapomenutelný zážitek: Zajistíme, že váš svatební den bude skutečně jedinečný a neopakovatelný.
-                Flexibilita: Nabízíme kurzy pro různé úrovně zkušeností, od začátečníků až po pokročilé tanečníky.
-                Personalizace: Vytváříme taneční program přesně podle vašich přání a potřeb.
-                Spokojenost zákazníků: Naše reference a ohlasy zákazníků hovoří samy za sebe.
-                Nenechte si ujít šanci proměnit váš svatební den v nezapomenutelný zážitek plný zábavy a radosti! 🎊
-              </p>
+              <p className='text-justify mb-3'><span className='font-bold'>Tančete svou lásku! 💃🕺</span></p>
+              <p className='text-justify mb-3'><span className='font-bold'>Udělejte svojí svatbu ještě více jedinečnou.</span> Překvapte svatebčany originálním tanečním vystoupením, které rozproudí svatební atmosféru!</p>
+              <p className='text-justify mb-3'>Chcete vytvořit svatební tanec <span className='font-bold'>ušitý Vám dvěma na míru?</span></p>
+              <p className='text-justify mb-3'>Nevěsty, chcete překvapit svého nastávajícho <span className='font-bold'>půlnočním tanečním překvapením</span>, třeba i v obklopení družiček?</p>
+              <p className='text-justify mb-3'>Máte radši <span className='font-bold'>netradiční, zábavné a moderní tance</span>, které udělají z vašeho svatebního dne jedinečný zážitek nejen pro vás dva, ale i pro vaše hosty?</p>
+              <p className='text-justify mb-3'><span className='font-bold'>Pak jste na správném místě!</span></p>
+              <p className='text-justify mb-3'><span className='font-bold'>Doporučujeme alespoň 3 individuální lekce. Cena jedné 1,5 hod. lekce je 1500 Kč.</span></p>
+              <p className='text-justify mb-3'><span className='font-bold'>Co nabízíme?</span></p>
+              <ul className='list-disc ml-5'>
+                <li className='text-justify mb-3'>Svatební tance na míru vytvořené z <span className='font-bold'>různých tanečních stylů</span> (od hip-hopu až po lidové tance)</li>
+                <li className='text-justify mb-3'><span className='font-bold'>Vytvoření hudebního mixu dle Vašich představ</span>, případně můžeme playlist navrhnout sami</li>
+                <li className='text-justify mb-3'><span className='font-bold'>Zkušenou taneční lektorku</span>, která vás naučí nejen nové kroky, ale také jak tancovat s radostí a sebevědomím a přizpůsobí tanec vaší taneční úrovni.</li>
+              </ul>
+              <p className='text-justify mb-3'>Neostýchejte se, i pokud jste úplní taneční začátečníci. Lektorka má široké profesionální zkušenosti nejen z muzikálů, jako jsou Krysař, <span className='font-bold'>Děti ráje, Ples upírů, Galileo</span> aj., z velkolepých show nebo i z lektorování tance v největší taneční škole v Praze. Tančila po boku např. <span className='font-bold'>Evy Farné, Pepy Vojtka, Janka Ledeckého nebo Jiřího Korna</span> a dalších.</p>
             </div>
         </div>
 

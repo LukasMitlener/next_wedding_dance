@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import wedding from "../public/wedd1.jpg"
+import wedding from "../public/wedd.png"
 import styles from '../styles';
 import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 
@@ -16,22 +16,16 @@ const Hero1 = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <div className="flex justify-center items-center flex-col relative z-10">
-        <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
-          💍 Zažijte nezapomenutelnou
+        <motion.h1 variants={textVariant(1.1)} className="font-great-vibes font-bold lg:text-[96px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] text-grey-700">
+          Tančete svou lásku! ❤️
         </motion.h1>
-        <motion.div
-          variants={textVariant(1.2)}
-          className="flex flex-row justify-center items-center"
-        >
-          <h1 className={styles.heroHeading}>svatební zábavu 💍</h1>
-        </motion.div>
       </div>
 
       <motion.div
         variants={slideIn('right', 'tween', 0.2, 1)}
         className="relative w-full md:-mt-[20px] -mt-[12px]"
       >
-        <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
+        
 
         <Image
           src={wedding}

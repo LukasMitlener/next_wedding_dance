@@ -3,8 +3,8 @@
 const Features = () => {
   return (
     <section name="features" className="w-full mt-24">
-      <div className="max-w-[1240px] mx-auto px-12">
-        <div className="text-center grid grid-cols-1 gap-20 px-4 py-24 mx-auto max-w-7xl lg:px-16 xl:px-24 md:grid-cols-2 lg:grid-cols-3">
+      <div className="max-w-[2000px] mx-auto px-12">
+        <div className="text-center grid grid-cols-1 gap-20 px-4 py-24 mx-auto max-w-8xl lg:px-16 xl:px-24 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <p className="text-center text-4xl">💑</p>
             <h3 class="mb-3 text-lg font-medium leading-tight text-gray-900">Tanec je zábava!</h3>
@@ -20,17 +20,17 @@ const Features = () => {
             </p>
           </div>
           <div>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-12 h-12 mb-4 text-purple-700" aria-hidden="true">
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M8 4H6a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-2m-4-1v8m0 0l3-3m-3 3L9 8m-5 5h2.586a1 1 0 01.707.293l2.414 2.414a1 1 0 00.707.293h3.172a1 1 0 00.707-.293l2.414-2.414a1 1 0 01.707-.293H20"
-              />
-            </svg>
-            <h3 class="mb-3 text-lg font-medium leading-tight text-gray-900">Grow your platform’s revenue</h3>
+            <p className="text-center text-4xl">💪</p>
+            <h3 class="mb-3 text-lg font-medium leading-tight text-gray-900">Boostněte sebevědomí!</h3>
             <p class="text-base leading-relaxed text-gray-600">
-              Add in-person payments to your platform or marketplace. Using Terminal with Connect, you can onboard users for online and in-person payments, and unify their payouts across channels.
+              Naše lektorka Vás naučí....
+            </p>
+          </div>
+          <div className="rounded-xl border border-h-color/50 shadow-xl hover:border-h-color hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
+            <p className="text-center text-4xl">🤩</p>
+            <h3 class="mb-3 text-lg font-medium leading-tight text-gray-900">Boostněte sebevědomí!</h3>
+            <p class="text-base leading-relaxed text-gray-600">
+              Naše lektorka Vás naučí....
             </p>
           </div>
         </div>
