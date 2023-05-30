@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Navbar1 from "../components/Navbar1"
 import Hero1 from "../components/Hero1"
 import About from "../components/About"
-import Lektor from "../components/Lektor"
 import Testimonials1 from "../components/Testimonials1"
 import Blog from "../components/Blog"
 import Features from "../components/Features"
@@ -11,7 +10,7 @@ import Footer from "../components/Footer"
 
 export default function Home() {
   return (
-    <div className="bg-main-bg-onecolor overflow-hidden font-poppins">
+    <div className="bg-bg-color overflow-hidden font-montserrat">
     {/* <div className="bg-gradient-to-tl from-main-bg-onecolor to-main-bg-light-pink overflow-hidden font-poppins">
     <div className="bg-gradient-to-tl from-main-pink-alt2 via-main-bg-onecolor to-main-bg-light-blue overflow-hidden font-poppins">
     <div className="bg-gradient-to-tl from-main-pink-alt1 via-main-bg-onecolor to-main-green-alt1 overflow-hidden font-poppins"> */}
@@ -28,9 +27,8 @@ export default function Home() {
       <Navbar1 />
       <Hero1 />
       <About />
-      <Lektor />
-      <Blog />
       <Features />
+      <Blog />
       <Testimonials1 />
       <Cta1 />
       <Footer />
