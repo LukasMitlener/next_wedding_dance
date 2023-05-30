@@ -10,24 +10,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'maincolor': '#8D5CC7',
-        'primary-color': '#a855f7',
-        'secondary-color': '#4ade80',
-
-        'main-bg-onecolor': '#FCFAF2',
-
-        'main-bg-light-pink': '#fcf2f6',
-        'main-bg-light-blue': '#f2fafc',
-
-        'main-green-alt1': '#F2FFFF',
-        "main-pink-alt1": "#fff7f2",
-        "main-pink-alt2": "#FEF1EC",
-
-
+        'h-color': '#8BD6D6',
+        's-color': '#FFC3A0',
+        'bg-color': '#fffff8',
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
-        AmaticSC: ['Amatic SC', "sans-serif"]
+
+        "great-vibes": ['Great Vibes', "sans-serif"]
       },
     },
     screens: {
