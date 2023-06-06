@@ -1,8 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { fadeIn, staggerContainer } from '../utils/motion';
-import paja from '../public/pajamin.jpg'
+import { staggerContainer } from '../utils/motion';
+import foto from '../public/wedd5.png'
 
 const About = () => {
   return (
@@ -14,6 +14,7 @@ const About = () => {
         viewport={{ once: true, amount: 0.25 }}
         className='max-w-[1240px] mx-auto px-12'
       >
+        
         <div className='px-4 py-12'>
           <h2>
               <span className="uppercase tracking-[20px] bg-clip-border font-black ">Co nabízíme?</span>
@@ -22,12 +23,17 @@ const About = () => {
 
         <div className='grid md:grid-cols-2 space-y-12'>
             <div className='flex flex-col justify-center md:items-start w-full'>
-              <motion.img 
-                variants={fadeIn('right', 'tween', 0.2, 1)}
-                className='w-full object-cover rounded-lg' 
-                src="https://scontent.fprg4-1.fna.fbcdn.net/v/t31.18172-8/17854704_10208702283216248_1090032344822088610_o.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=iDVopEwqeq8AX_OjLrE&_nc_ht=scontent.fprg4-1.fna&oh=00_AfDUXuObRoJ2HqQj6qDatmi4TBTye6x8fKbS2Hukp5dxvg&oe=6425682C"
-                alt="profilové foto" >
-              </motion.img>
+              <motion.img
+                initial={{
+                  x: -200,
+                }}
+                transition={{ duration: 1.2 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                src={foto.src}
+                alt="profile picture"
+                className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px] object-cover"
+              ></motion.img>
             </div>
             <div className='px-0 md:px-10'>
               <p className='text-justify mb-3'><span className='font-bold'>Tančete svou lásku! 💃🕺</span></p>
@@ -46,8 +52,6 @@ const About = () => {
               <p className='text-justify mb-3'>Neostýchejte se, i pokud jste úplní taneční začátečníci. Lektorka má široké profesionální zkušenosti nejen z muzikálů, jako jsou Krysař, <span className='font-bold'>Děti ráje, Ples upírů, Galileo</span> aj., z velkolepých show nebo i z lektorování tance v největší taneční škole v Praze. Tančila po boku např. <span className='font-bold'>Evy Farné, Pepy Vojtka, Janka Ledeckého nebo Jiřího Korna</span> a dalších.</p>
             </div>
         </div>
-
-        
       </motion.div>  
     </div>
   );

@@ -28,13 +28,13 @@ Stačí si domluvit schůzku (e-mail, tel.), sdělit nám vaše představy při 
               </p>
               <hr className="mb-5 border-gray-300" />
               <div className="flex items-center space-x-4">
-                <PhoneIcon className="text-h-color h-7 w-7 animate-pulse" />
-                <p className="text-xl">+420732155725</p>
-                <EnvelopeIcon className="text-h-color h-7 w-7 animate-pulse" />
-                <a className="text-xl" href="mailto:svatebnitance@gmail.com">
-                  svatebnitance@gmail.com
-                </a>
-              </div>
+              <PhoneIcon className="text-h-color h-7 w-7 animate-pulse" />
+              <p className="text-xl">+420732155725</p>
+              <EnvelopeIcon className="text-h-color h-7 w-7 animate-pulse" />
+              <a className="text-xl" href="mailto:svatebnitance@gmail.com">
+                svatebnitance@gmail.com
+              </a>
+            </div>
             </div>
             <div>
               <Image src={couple} className="rounded-lg" alt="svatba pár"/>

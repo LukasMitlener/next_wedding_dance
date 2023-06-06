@@ -2,7 +2,7 @@
 
 const Features = () => {
   return (
-    <section name="features" className="w-full mt-24">
+    <section name="features" className="w-full mt-24 bg-h-color/30">
       <div className="max-w-[2000px] mx-auto px-12">
         <div className="text-center grid grid-cols-1 gap-20 px-4 py-24 mx-auto max-w-8xl lg:px-16 xl:px-24 md:grid-cols-2 lg:grid-cols-4">
           <div>

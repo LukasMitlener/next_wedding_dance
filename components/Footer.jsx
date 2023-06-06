@@ -2,8 +2,6 @@
 
 import { motion } from 'framer-motion';
 import { SocialIcon } from 'react-social-icons';
-
-import styles from '../styles';
 import { footerVariants } from '../utils/motion';
 
 const Footer = () => (
@@ -11,7 +9,8 @@ const Footer = () => (
     variants={footerVariants}
     initial="hidden"
     whileInView="show"
-    className={`${styles.xPaddings} py-8 relative`}
+    viewport={{ once: true, amount: 0.25 }}
+    className="sm:px-16 px-6py-8 relative"
   >
     
     <div className="max-w-[1240px] mx-auto flex flex-col gap-8">

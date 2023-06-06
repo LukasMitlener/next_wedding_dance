@@ -3,17 +3,16 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import wedding from "../public/wedd.png"
-import styles from '../styles';
 import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 
 const Hero1 = () => (
-  <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
+  <section className="sm:py-16 xs:py-8 py-12 sm:pl-16 pl-6">
     <motion.div
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex flex-col`}
+      viewport={{ once: true, amount: 0.25 }}
+      className="xl:max-w-[1280px] w-full mx-auto flex flex-col"
     >
       <div className="flex justify-center items-center flex-col relative z-10">
         <motion.h1 variants={textVariant(1.1)} className="font-great-vibes font-bold lg:text-[96px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] text-grey-700">

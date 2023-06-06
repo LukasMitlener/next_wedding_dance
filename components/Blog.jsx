@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { fadeIn, staggerContainer } from '../utils/motion';
+import { staggerContainer } from '../utils/motion';
 import Link from 'next/link'
 import Image from 'next/image'
 import pic1 from '../public/wedd2.jpg'
