@@ -13,12 +13,12 @@ const Testimonials = () => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: true, amount: 0.25 }}
-            className="max-w-[1240px] mx-auto px-12 py-20 text-center"
+            className="max-w-[1240px] mx-auto px-6 md:px-12 py-20 text-center"
         >
 
             <motion.h1 
                 variants={fadeIn('up', 'tween', 0.2, 1)}
-                className="mt-3 mb-10 text-xl font-extrabold text-black md:leading-snug md:text-3xl"
+                className="mt-3 mb-10 text-xl font-extrabold text-gray-900  md:text-2xl"
             >
                 "Páju bychom chtěli doporučit všem, kteří by rádi převapili své svatební hosty originálním tancem. 
                 Je velká profesionálka, pomohla nám s výběrem hudby a "ušila" nám tanec přímo na míru. 
@@ -30,8 +30,8 @@ const Testimonials = () => {
             <motion.div
                 variants={fadeIn('up', 'tween', 0.3, 1)}
             >
-                <p className="text-base font-medium text-gray-200">Kamila&Filip</p>
-                <p className="text-xs font-medium text-gray-400">Účastníci kurzu</p>
+                <p className="text-base font-medium text-gray-700">Kamila&Filip</p>
+                <p className="text-xs font-medium text-gray-500">Účastníci kurzu</p>
             </motion.div>
         </motion.div>
     </section>

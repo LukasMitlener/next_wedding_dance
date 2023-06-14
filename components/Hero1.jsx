@@ -15,8 +15,8 @@ const Hero1 = () => (
       className="xl:max-w-[1280px] w-full mx-auto flex flex-col"
     >
       <div className="flex justify-center items-center flex-col relative z-10">
-        <motion.h1 variants={textVariant(1.1)} className="font-great-vibes font-bold lg:text-[96px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] text-grey-700">
-          Tančete svou lásku! ❤️
+        <motion.h1 variants={textVariant(1.1)} className="font-bold lg:text-[96px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] text-grey-700">
+          Tančete svou lásku!
         </motion.h1>
       </div>
 

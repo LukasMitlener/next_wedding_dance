@@ -3,8 +3,8 @@
 const Features = () => {
   return (
     <section name="features" className="w-full mt-24 bg-h-color/30">
-      <div className="max-w-[2000px] mx-auto px-12">
-        <div className="text-center grid grid-cols-1 gap-20 px-4 py-24 mx-auto max-w-8xl lg:px-16 xl:px-24 md:grid-cols-2 lg:grid-cols-4">
+      <div className="max-w-[2000px] mx-auto px-6 md:px-12">
+        <div className="text-center grid grid-cols-1 gap-20 px-12 py-24 mx-auto max-w-8xl lg:px-16 xl:px-24 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <p className="text-center text-4xl">💑</p>
             <h3 class="mb-3 text-lg font-medium leading-tight text-gray-900">Tanec je zábava!</h3>
@@ -15,7 +15,7 @@ const Features = () => {
           <div>
             <p className="text-center text-4xl">🤩</p>
             <h3 class="mb-3 text-lg font-medium leading-tight text-gray-900">Překvapte!</h3>
-            <p class="text-base leading-relaxed text-gray-600">
+            <p class="text-gray-700">
               Rozjeďte svatební párty nečekáným dynamickým tancem. Možná se dokonce přídá i věčně nevrlý strejda Karel.
             </p>
           </div>
@@ -26,7 +26,7 @@ const Features = () => {
               Naše lektorka Vás naučí....
             </p>
           </div>
-          <div className="rounded-xl border border-h-color/50 shadow-xl hover:border-h-color hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
+          <div className="rounded-xl border ">
             <p className="text-center text-4xl">🤩</p>
             <h3 class="mb-3 text-lg font-medium leading-tight text-gray-900">Boostněte sebevědomí!</h3>
             <p class="text-base leading-relaxed text-gray-600">

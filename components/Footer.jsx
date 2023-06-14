@@ -1,8 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { SocialIcon } from 'react-social-icons';
 import { footerVariants } from '../utils/motion';
+import { FaFacebookSquare } from 'react-icons/fa';
 
 const Footer = () => (
   <motion.footer
@@ -10,7 +10,7 @@ const Footer = () => (
     initial="hidden"
     whileInView="show"
     viewport={{ once: true, amount: 0.25 }}
-    className="sm:px-16 px-6py-8 relative"
+    className="px-6 md:px-12 py-8 relative"
   >
     
     <div className="max-w-[1240px] mx-auto flex flex-col gap-8">
@@ -27,20 +27,9 @@ const Footer = () => (
             Copyright © 2023 Svatební tance. All rights reserved.
           </p>
 
-          <div className="flex gap-2">
-            <SocialIcon 
-                        url="https://www.facebook.com"
-                        fgColor="#8BD6D6"
-                        bgColor="transparent" />
-            <SocialIcon 
-                        url="https://www.youtube.com/"
-                        fgColor="#8BD6D6"
-                        bgColor="transparent" />
-            <SocialIcon 
-                        url="https://www.instagram.com/lukas.mitlener/"
-                        fgColor="#8BD6D6"
-                        bgColor="transparent" />
-          </div>
+          <a href="https://www.facebook.com/profile.php?id=100092820558697" target="_blank" rel="noopener noreferrer">
+          <FaFacebookSquare size={32} style={{ color: '#8BD6D6' }}/>
+          </a>
         </div>
       </div>
     </div>
