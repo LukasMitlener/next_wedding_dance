@@ -1,16 +1,19 @@
 import Head from 'next/head'
 import Navbar1 from "../components/Navbar1"
-import Hero1 from "../components/Hero1"
+
+import Hero from "../components/Hero"
 import About from "../components/About"
+import Lektorka from "../components/Lektorka"
 import Testimonials1 from "../components/Testimonials1"
 import Blog from "../components/Blog"
 import Features from "../components/Features"
+import Pricing from "../components/Pricing"
 import Cta1 from "../components/Cta1"
 import Footer from "../components/Footer"
 
 export default function Home() {
   return (
-    <div className="bg-bg-color overflow-hidden font-montserrat">
+    <div className="relative bg-bg-color overflow-hidden font-montserrat">
     {/* <div className="bg-gradient-to-tl from-main-bg-onecolor to-main-bg-light-pink overflow-hidden font-poppins">
     <div className="bg-gradient-to-tl from-main-pink-alt2 via-main-bg-onecolor to-main-bg-light-blue overflow-hidden font-poppins">
     <div className="bg-gradient-to-tl from-main-pink-alt1 via-main-bg-onecolor to-main-green-alt1 overflow-hidden font-poppins"> */}
@@ -25,11 +28,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar1 />
-      <Hero1 />
+
+       <Hero />
+
       <About />
+      <Lektorka />
+
       <Features />
       <Blog />
       <Testimonials1 />
+      <Pricing />
       <Cta1 />
       <Footer />
     </div>
