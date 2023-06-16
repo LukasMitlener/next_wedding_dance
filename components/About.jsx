@@ -12,7 +12,7 @@ const About = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.25 }}
-        className='max-w-[1240px] mx-auto px-6 md:px-12'
+        className='max-w-[1440px] mx-auto px-6 md:px-12'
       >
         
 

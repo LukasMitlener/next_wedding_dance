@@ -6,7 +6,7 @@ import foto from '../public/wedd5.png'
 
 const Lektorka = () => {
   return (
-    <div name='about' className='w-full mt-12 md:mt-24'>
+    <div name='lektorka' className='w-full mt-12 md:mt-24'>
       <motion.div 
         variants={staggerContainer}
         initial="hidden"
@@ -17,7 +17,7 @@ const Lektorka = () => {
         
         <div className='px-4 py-12'>
           <h2>
-              <span className="uppercase tracking-[20px] bg-clip-border font-black">O lektorce</span>
+              <span className="uppercase tracking-[20px] bg-clip-border font-black"><span className='text-h-color'>naše</span> lektorka</span>
           </h2>
         </div>
 

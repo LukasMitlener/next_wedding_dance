@@ -15,12 +15,12 @@ const Blog = () => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.25 }}
-            className="max-w-[1240px] mx-auto px-6 md:px-12"
+            className="max-w-[1440px] mx-auto px-6 md:px-12"
       >
 
         <div className='px-4 py-12'>
           <h2>
-              <span className="uppercase tracking-[20px] bg-clip-border font-black">blog</span>
+              <span className="uppercase tracking-[20px] bg-clip-border font-black"><span className='text-h-color'>náš</span> blog</span>
           </h2>
         </div>
 
@@ -37,7 +37,7 @@ const Blog = () => {
                 aby vytvořil nejen báječnou podívanou pro hosty, ale také aby tento den pro vás a vašeho 
                 partnera učinil ještě více speciálním. 
                 </p>
-                <Link href="/blog/5_skvelych_napadu" class=" hover:text-h-color text-lg">Pokračovat ve čtení</Link>
+                <Link href="/blog/5_skvelych_napadu" class=" hover:text-h-color font-semibold  text-lg">Pokračovat ve čtení</Link>
               </div>
             </div>
             <div class="grid grid-cols-1 gap-6 md:grid-cols-4">
@@ -51,7 +51,7 @@ const Blog = () => {
                 Mnoho párů se rozhoduje odklonit od klasického prvního tance a místo toho se vydává 
                 na cestu svatebních choreografií za doprovodu různých hudbeních stylů, jako je hip-hop nebo pop. 
                 </p>
-                <Link href="/blog/jak_vytvorit_svatebni_tanec" class=" hover:text-h-color text-lg">Pokračovat ve čtení</Link>
+                <Link href="/blog/jak_vytvorit_svatebni_tanec" class=" hover:text-h-color font-semibold text-lg">Pokračovat ve čtení</Link>
               </div>
             </div>
             
