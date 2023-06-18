@@ -4,7 +4,7 @@ const Features = () => {
   return (
     <section name="features" className="w-full mt-24 bg-h-color/30">
       <div className="max-w-[2000px] mx-auto px-6 md:px-12">
-        <div className="text-center grid grid-cols-1 gap-20 px-12 py-24 mx-auto max-w-8xl lg:px-16 xl:px-24 md:grid-cols-2 lg:grid-cols-3">
+        <div className="text-center grid grid-cols-1 gap-20 px-12 py-12 mx-auto max-w-[500px] lg:max-w-full lg:px-16 xl:px-24 lg:grid-cols-3">
           <div>
             <p className="text-center text-4xl">💑</p>
             <h3 class="mb-3 text-2xl font-extrabold leading-tight text-gray-800">Tanec je zábava!</h3>
@@ -23,7 +23,7 @@ const Features = () => {
             <p className="text-center text-4xl">💪</p>
             <h3 class="mb-3 text-2xl font-extrabold leading-tight text-gray-800">Boostněte si sebevědomí!</h3>
             <p class="text-gray-700 font-semibold">
-              Naše lektorka Vás naučí....
+            Naše lektorka vás naučí plynule a sebevědomě tančit pro ten nejdůležitější tanec ve vašem životě. Získejte jistotu na parketu a těšte se na svůj svatební den bez stresu a s plným sebevědomím.
             </p>
           </div>
         </div>

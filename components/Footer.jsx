@@ -10,7 +10,7 @@ const Footer = () => (
     initial="hidden"
     whileInView="show"
     viewport={{ once: true, amount: 0.25 }}
-    className="py-8 relative"
+    className="py-12 relative"
   >
     
     <div className="max-w-[1440px] mx-auto px-6 md:px-12 flex flex-col gap-8">

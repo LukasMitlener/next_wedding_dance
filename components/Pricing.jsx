@@ -4,41 +4,18 @@ const Pricing = () => {
   return (
     <div name='pricing' className='w-full mt-12 md:mt-24'>
       <div className="max-w-[1440px] mx-auto px-6 md:px-12">
-        <div className='px-4 py-12'>
+        <div className='px-4 pt-12 pb-16'>
           <h2>
               <span className="uppercase tracking-[20px] bg-clip-border font-black"><span className='text-h-color'>náš</span> ceník</span>
           </h2>
         </div>
         <table className="w-full">
           <caption className="sr-only">Pricing plan comparison</caption>
-          <thead>
-            <tr>
-              <th></th>
-              <th scope="col">
-                <h2 className="px-2 text-lg font-medium">Starter</h2>
-                <p className="mb-3">
-                  <span className="text-2xl font-bold sm:text-4xl dark:text-gray-50">5000 Kč</span>
-
-                </p>
-              </th>
-              <th scope="col">
-                <h2 className="px-2 text-lg font-medium">Standard</h2>
-                <p className="mb-3">
-                  <span className="text-2xl font-bold sm:text-4xl dark:text-gray-50">6900 Kč</span>
-                </p>
-              </th>
-              <th scope="col">
-                <h2 className="px-2 text-lg font-medium">Premium</h2>
-                <p className="mb-3">
-                  <span className="text-2xl font-bold sm:text-4xl dark:text-gray-50">8900 Kč</span>
-                </p>
-              </th>
-            </tr>
-          </thead>
+          
           <tbody className="space-y-6 text-center divide-y divide-gray-700">
             <tr>
               <th scope="row" className="text-left">
-                <h3 className="py-3">Počet lekcí (90 minut)</h3>
+                <h3 className="py-3">Počet lekcí (1,5h)</h3>
               </th>
               <td>
                 <span className="font-bold text-2xl text-gray-700">3</span>
@@ -52,7 +29,7 @@ const Pricing = () => {
             </tr>
             <tr>
               <th scope="row" className="text-left">
-                <h3 className="py-3">Konzulatace</h3>
+                <h3 className="py-3">Konzultace</h3>
               </th>
               <td>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-label="Included in Free plan" className="w-8 h-8 mx-auto text-h-color">
@@ -92,7 +69,7 @@ const Pricing = () => {
             </tr>
             <tr>
               <th scope="row" className="text-left">
-                <h3 className="py-3">Výběr a sestřih hudby</h3>
+                <h3 className="py-3">Sestřih hudby</h3>
               </th>
               <td>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-label="Included in Free plan" className="w-8 h-8 mx-auto text-h-color">
@@ -110,9 +87,29 @@ const Pricing = () => {
                 </svg>
               </td>
             </tr>
-            
+            <tr>
+              <th scope="row" className="text-left">
+                <h3 className="py-3">Cena</h3>
+              </th>
+              <th scope="col">
+                <p className="mb-3 font-bold text-2xl text-gray-700">
+                  5 000 Kč
+                </p>
+              </th>
+              <th scope="col">
+                <p className="mb-3 font-bold text-2xl text-gray-700">
+                  7 500 Kč
+                </p>
+              </th>
+              <th scope="col">
+                <p className="mb-3 font-bold text-2xl text-gray-700">
+                  10 000 Kč
+                </p>
+              </th>
+            </tr>
           </tbody>
         </table>
+        <p className='pb-16'>* Každá další lekce + 1500 Kč</p>
       </div>
     </div>
   )

@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import wedding from "../public/wedd2.png"
-import Navbar1 from './Navbar1';
+import Navbar1 from './Navbar';
 
 
 const Hero = () => (

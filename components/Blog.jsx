@@ -9,7 +9,7 @@ import pic2 from '../public/wedd4.png'
 
 const Blog = () => {
   return (
-    <section name='blog' className='w-full mt-24'>
+    <section name='blog' className='w-full mt-12 md:mt-24'>
       <motion.div 
             variants={staggerContainer}
             initial="hidden"

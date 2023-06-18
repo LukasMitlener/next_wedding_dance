@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { staggerContainer } from '../utils/motion';
-import foto from '../public/wedd5.png'
+import foto from '../public/wedd.png'
 
 const About = () => {
   return (
@@ -12,13 +12,13 @@ const About = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.25 }}
-        className='max-w-[1440px] mx-auto px-6 md:px-12'
+        className='max-w-[1440px] mx-auto px-6 md:px-12 space-y-36'
       >
         
 
 
-        <div className='grid md:grid-cols-2 space-y-12'>
-          <div className='px-0 md:px-10'>
+        <div className='grid md:grid-cols-2 space-y-6 md:space-y-0'>
+          <div className='px-0 md:px-10 my-auto'>
             <p className='text-justify mb-3'><span className='font-bold'>Udělejte svojí svatbu ještě více jedinečnou.</span> Překvapte svatebčany originálním tanečním vystoupením, které rozproudí svatební atmosféru!</p>
             <p className='text-justify mb-3'>Chcete vytvořit svatební tanec <span className='font-bold'>ušitý Vám dvěma na míru?</span></p>
             <p className='text-justify mb-3'>Nevěsty, chcete překvapit svého nastávajícho <span className='font-bold'>půlnočním tanečním překvapením</span>, třeba i v obklopení družiček?</p>
@@ -26,9 +26,9 @@ const About = () => {
             <p className='text-justify mb-3'><span className='font-bold'>Pak jste na správném místě!</span></p>
             <p className='text-justify mb-3'><span className='font-bold'>Co nabízíme?</span></p>
             <ul className='list-disc ml-5'>
-              <li className='text-justify mb-3'>Svatební tance na míru vytvořené z <span className='font-bold'>různých tanečních stylů</span> (od hip-hopu až po lidové tance)</li>
-              <li className='text-justify mb-3'><span className='font-bold'>Vytvoření hudebního mixu dle Vašich představ</span>, případně můžeme playlist navrhnout sami</li>
-              <li className='text-justify mb-3'><span className='font-bold'>Zkušenou taneční lektorku</span>, která vás naučí nejen nové kroky, ale také jak tancovat s radostí a sebevědomím a přizpůsobí tanec vaší taneční úrovni.</li>
+              <li className='text-gray-700 text-justify mb-3'>Svatební tance na míru vytvořené z <span className='font-bold'>různých tanečních stylů</span> (od hip-hopu až po lidové tance)</li>
+              <li className='text-gray-700 text-justify mb-3'><span className='font-bold'>Vytvoření hudebního mixu dle Vašich představ</span>, případně můžeme playlist navrhnout sami</li>
+              <li className='text-gray-700 text-justify mb-3'><span className='font-bold'>Zkušenou taneční lektorku</span>, která vás naučí nejen nové kroky, ale také jak tancovat s radostí a sebevědomím a přizpůsobí tanec vaší taneční úrovni.</li>
             </ul>
             
           </div>
@@ -42,7 +42,8 @@ const About = () => {
               viewport={{ once: true }}
               src={foto.src}
               alt="profile picture"
-              className="rounded-lg w-[1000px] h-[1350px] md:rounded-lg md:w-[700px] md:h-[850px] object-cover"
+              className="rounded-lg object-cover md:h-full lg:h-[600px]"
+              
             ></motion.img>
           </div>
         </div>
