@@ -1,14 +1,13 @@
 import Head from 'next/head'
-import Navbar1 from "../components/Navbar1"
-
+import Navbar from "../components/Navbar"
 import Hero from "../components/Hero"
 import About from "../components/About"
 import Lektorka from "../components/Lektorka"
-import Testimonials1 from "../components/Testimonials1"
+import Testimonials from "../components/Testimonials"
 import Blog from "../components/Blog"
 import Features from "../components/Features"
 import Pricing from "../components/Pricing"
-import Cta1 from "../components/Cta1"
+import Cta from "../components/Cta"
 import Footer from "../components/Footer"
 
 export default function Home() {
@@ -27,7 +26,7 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar1 />
+      <Navbar />
 
        <Hero />
 
@@ -36,9 +35,9 @@ export default function Home() {
 
       <Features />
       <Blog />
-      <Testimonials1 />
+      <Testimonials />
       <Pricing />
-      <Cta1 />
+      <Cta />
       <Footer />
     </div>
   )
