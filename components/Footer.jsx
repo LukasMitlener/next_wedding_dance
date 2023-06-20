@@ -24,7 +24,7 @@ const Footer = () => (
             Svatební tance
           </h4>
           <p className="font-normal text-[14px] text-grey-700 opacity-50">
-            Copyright © 2023 Svatební tance. All rights reserved.
+          COPYRIGHT © 2023 SVATEBNÍ TANCE
           </p>
 
           <a href="https://www.facebook.com/profile.php?id=100092820558697" target="_blank" rel="noopener noreferrer">

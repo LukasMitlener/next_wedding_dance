@@ -31,7 +31,7 @@ Stačí si domluvit schůzku (e-mail, tel.), sdělit vaše představy při prvot
             </div>
             </div>
             <div>
-              <Image src={couple} className="rounded-lg" alt="svatba pár"/>
+              <Image src={couple} className="rounded-lg" alt="svatební pár tančí"/>
             </div>
           </div>
         </div>
