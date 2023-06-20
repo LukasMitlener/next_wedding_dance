@@ -13,30 +13,25 @@ import Footer from "../components/Footer"
 export default function Home() {
   return (
     <div className="relative bg-bg-color overflow-hidden font-montserrat">
-    {/* <div className="bg-gradient-to-tl from-main-bg-onecolor to-main-bg-light-pink overflow-hidden font-poppins">
-    <div className="bg-gradient-to-tl from-main-pink-alt2 via-main-bg-onecolor to-main-bg-light-blue overflow-hidden font-poppins">
-    <div className="bg-gradient-to-tl from-main-pink-alt1 via-main-bg-onecolor to-main-green-alt1 overflow-hidden font-poppins"> */}
       <Head>
-        <title>Create Next App</title>
-        <meta name="description" content="Kolečkové lyže s unikátními jízdními vlastnostmi. Množství barevných provedení."></meta>
-        <meta name="keywords" content="originální, unikátní, kolečkové lyže, jak vybrat, letní trénink, letní běžky, bežky na kolečkách, běžky v létě na suchu, klasika, skate, na soupaž, barevné provedení"></meta>
+        <title>Svatební tance</title>
+        <meta name="description" content="Kurzy netradičních svatebních tanců vytvořených na míru"></meta>
+        <meta name="keywords" content="Svatební tance, první tanec, netradiční tance, kurzy tanců, svatební příprava, taneční lekce, svatební choreografie, taneční kurs, svatební tanec na míru, osobní taneční lekce, profesionální choreografie, jedinečný svatební tanec, kreativní svatební tance, svatební tanec pro páry, taneční trénink, taneční instruktor, překvapivý svatební tanec, svatební tanec lekce, tanec družiček"></meta>
         <meta
           property="og:image"
-          content="https://example.com/images/cool-page.jpg"
+          content="https://svatebnitance.cz/images/wedd6.png"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-
-       <Hero />
-
+      <Hero />
       <About />
       <Lektorka />
-
       <Features />
       <Blog />
       <Testimonials />
       <Pricing />
+      <hr className="mb-6 border-h-color" />
       <Cta />
       <Footer />
     </div>
