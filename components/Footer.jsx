@@ -17,7 +17,7 @@ const Footer = () => (
       
 
       <div className="flex flex-col">
-        <div className="mb-[50px] h-[2px] bg-white opacity-10" />
+        <div className="my-12 h-[2px] bg-h-color" />
 
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-great-vibes font-extrabold text-[40px] text-h-color">
