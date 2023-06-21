@@ -2,10 +2,11 @@
 
 import Image from 'next/image'
 import pic from '../../public/wedd3.png'
+import { FaFacebookSquare } from 'react-icons/fa';
 
 const Blog1 = () => {
   return (
-    <article class="px-4 py-24 mx-auto max-w-3xl">
+    <div class="px-4 py-24 mx-auto max-w-3xl">
       <div class="w-full mx-auto mb-10 text-left ">
         <div class="pb-6 mb-6 border-b border-gray-200">
           <h1 class="mb-3 text-3xl font-bold text-gray-900 md:leading-tight md:text-4xl">
@@ -45,8 +46,8 @@ const Blog1 = () => {
         den pro vás a vašeho partnera učinil ještě více speciálním. Od překvapivých 
         tanečních vstupů přes romantické valčíky až po zábavné taneční bitvy - připravili 
         jsme pro vás řadu inspirativních videí, která vám pomohou učinit váš velký den 
-        ještě významnějším. Vydáme se společně na cestu plnou hudby, radosti a mnoha 
-        tanečních kroků.
+        ještě významnějším. <a href="http://localhost:3000" class="text-h-color font-semibold hover:text-h-color/80">Vydáme se společně na cestu plnou hudby, radosti a mnoha 
+        tanečních kroků.</a>
         </p>
 
 
@@ -94,7 +95,7 @@ const Blog1 = () => {
         </div>
 
         <p className="mt-6">
-          No dobře. I ten hříšňák Vás naše lektorka dokáže naučit 😜
+          Jó hříšňák! To je klasika, která nikdy neomrzí ❤️
         </p>
 
         <div className="flex justify-center mt-5 mb-20">
@@ -109,7 +110,7 @@ const Blog1 = () => {
 
         
         <p className="mt-6">
-          Nebo snad chce nevěstě udělat překvapení ženich se svou družbou? 😜
+          Nebo snad chce nevěstě udělat překvapení ženich se svou družbou? To je výzva, pánové! 😜
         </p>
 
         <div className="flex justify-center mt-5 mb-10">
@@ -122,8 +123,23 @@ const Blog1 = () => {
           />
         </div>
       </div>
+      <div className="flex flex-col">
+        <div className="mt-12 mb-6 h-[2px] bg-h-color" />
 
-    </article>
+        <div className="flex items-center justify-between flex-wrap gap-4">
+          <h4 className="font-great-vibes font-extrabold text-[40px] text-h-color">
+          <a href="http://localhost:3000">Svatební tance</a>
+          </h4>
+          <p className="font-normal text-[14px] text-gray-700 opacity-50">
+          COPYRIGHT © 2023 SVATEBNÍ TANCE
+          </p>
+
+          <a href="https://www.facebook.com/profile.php?id=100092820558697" target="_blank" rel="noopener noreferrer">
+          <FaFacebookSquare size={40} style={{ color: '#8BD6D6' }}/>
+          </a>
+        </div>
+      </div>
+    </div>
   )
 }
 

@@ -2,10 +2,11 @@
 
 import Image from 'next/image'
 import pic from '../../public/wedd4.png'
+import { FaFacebookSquare } from 'react-icons/fa';
 
 const Blog2 = () => {
   return (
-    <article class="px-4 py-24 mx-auto max-w-3xl">
+    <div class="px-4 pt-24 mb-6 mx-auto max-w-3xl">
       <div class="w-full mx-auto mb-10 text-left">
         <div class="pb-6 mb-6 border-b border-gray-200">
           <h1 class="mb-3 text-3xl font-bold text-gray-900 md:leading-tight md:text-4xl">
@@ -36,14 +37,14 @@ const Blog2 = () => {
         za doprovodu různých hudbeních stylů, jako je hip-hop nebo pop.</p>
         <p className="mb-4 text-justify">V každém svatebním dni je jedním z vrcholů okamžik, kdy novomanželé poprvé tančí 
         jako manželský pár. Tradičně bylo očekáváno, že tento tanec bude romantický a vážný, ale moderní páry hledají způsoby, 
-        jak přidat do svého svatebního dne trochu odvahy a kreativity. A co by mohlo být lepší než vytvořit svatební tanec, 
+        jak přidat s trochou odvahy do svého svatebního dne více kreativity. A co by mohlo být lepší než vytvořit svatební tanec, 
         který každého překvapí a zanechá nezapomenutelný dojem? </p>
         <h2 className="text-2xl text-left font-bold my-4 mt-12">Vyberte si píseň</h2>
         
-        <p className="mb-4 text-justify">Když začnete plánovat svůj svatební tanec, prvním krokem, na kterém byste se měli soustředit, 
-        je výběr té správné písně. Je důležité, aby píseň nebyla pouze zábavná, ale také aby dokázala vzbudit emoce a energii mezi 
-        svatebními hosty. Cílem je, aby se každý cítil zapojen a užíval si tanec spolu s vámi. Vybrat píseň, která je obecně oblíbená 
-        a má rytmus, který inspiruje k tanci, může být skvělým začátkem. Pokud si nejste jisti, kterou píseň vybrat, nebojte se vyhledat 
+        <p className="mb-4 text-justify">Když začnete plánovat svůj svatební tanec, první krok, na který byste se měli soustředit, 
+        je výběr té správné písně, s kterou budete souznít. Ještě lepší variantou je výběr více písní a následné sestříhání hudebního mixu, u kterého je prvořadý výběr vhodných částí písně, jejich uspořádání a plynulý přechod mezi nimi. Je důležité, aby hudební podklad nebyl pouze zábavný, ale také, aby dokázal vzbudit emoce a energii mezi 
+        svatebními hosty. Vybrat písně, které jsou obecně oblíbené 
+        a mají rytmus, který inspiruje k tanci, může být skvělým začátkem. Pokud si nejste jisti, které písně vybrat, nebojte se vyhledat 
         inspiraci online. </p>
 
         <h2 className="text-2xl text-left font-bold my-4 mt-12">Hledejte inspiraci</h2>
@@ -73,7 +74,7 @@ const Blog2 = () => {
         která je nejen vizuálně atraktivní, ale také přizpůsobená vašim schopnostem a preferencím. Může vám pomoci vybrat 
         kroky a pohyby, které skvěle ladí s vaší vybranou písní, a také vám poradit, jak nejlépe vyjádřit vaši osobnost 
         prostřednictvím tance. </p>
-        <p className="mb-4 text-justify">Naše zkušená lektorka je k dispozici, aby vám poskytla podporu a odborné vedení, 
+        <p className="mb-4 text-justify">Naše zkušená <a href="http://localhost:3000" class="text-blue-500 font-semibold hover:text-blue-800">lektorka</a> je k dispozici, aby vám poskytla podporu a odborné vedení, 
         které potřebujete. S citlivým přístupem k vašim potřebám a přáním, vám ráda pomůže vytvořit taneční choreografii, 
         která bude nejen okouzlující, ale také vyjadřovat vaše pocity a radost z tohoto výjimečného dne. </p>
 
@@ -85,7 +86,28 @@ const Blog2 = () => {
         s vaším budoucím manželem/manželkou nebo svatební party. Bude to úžasný zážitek a odreagování před vaším velkým dnem. 
         Užijte si to! </p>
       </div>
-    </article>
+
+      
+
+      <div className="flex flex-col">
+        <div className="mt-12 mb-6 h-[2px] bg-h-color" />
+
+        <div className="flex items-center justify-between flex-wrap gap-4">
+          <h4 className="font-great-vibes font-extrabold text-[40px] text-h-color">
+          <a href="http://localhost:3000">Svatební tance</a>
+          </h4>
+          <p className="font-normal text-[14px] text-gray-700 opacity-50">
+          COPYRIGHT © 2023 SVATEBNÍ TANCE
+          </p>
+
+          <a href="https://www.facebook.com/profile.php?id=100092820558697" target="_blank" rel="noopener noreferrer">
+          <FaFacebookSquare size={40} style={{ color: '#8BD6D6' }}/>
+          </a>
+        </div>
+      </div>
+
+    </div>
+    
   )
 }
 
