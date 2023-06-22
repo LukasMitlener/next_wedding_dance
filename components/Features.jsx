@@ -9,7 +9,7 @@ const Features = () => {
             <p className="text-center text-4xl">💑</p>
             <h3 class="mb-3 text-2xl font-extrabold leading-tight text-gray-800">Tanec je zábava!</h3>
             <p class="font-semibold text-gray-700">
-              Jako pár nebo skupina svatebčanů či družiček &#128131;&#128131;&#128131; se společně zasmějete a určitě se i více sblížíte. Ručím za to :-)
+              Jako pár nebo skupina svatebčanů či družiček se při tréninku společně zasmějete a určitě se i více sblížíte. 
             </p>
           </div>
           <div>
@@ -23,7 +23,7 @@ const Features = () => {
             <p className="text-center text-4xl">💪</p>
             <h3 class="mb-3 text-2xl font-extrabold leading-tight text-gray-800">Boostněte si sebevědomí!</h3>
             <p class="text-gray-700 font-semibold">
-            Naše lektorka vás naučí plynule a sebevědomě tančit pro ten nejdůležitější tanec ve vašem životě. Získejte jistotu na parketu a těšte se na svůj svatební den bez stresu a s plným sebevědomím.
+            Naše lektorka vás naučí plynule a sebevědomě tančit pro ten nejdůležitější tanec ve vašem životě. 
             </p>
           </div>
         </div>

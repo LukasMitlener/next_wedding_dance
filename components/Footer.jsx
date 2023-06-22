@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { footerVariants } from '../utils/motion';
 import { FaFacebookSquare } from 'react-icons/fa';
+import { AiFillInstagram } from 'react-icons/ai';
 
 const Footer = () => (
   <motion.footer
@@ -26,10 +27,14 @@ const Footer = () => (
           <p className="font-normal text-[14px] text-grey-700 opacity-50">
           COPYRIGHT © 2023 SVATEBNÍ TANCE
           </p>
-
-          <a href="https://www.facebook.com/profile.php?id=100092820558697" target="_blank" rel="noopener noreferrer">
-          <FaFacebookSquare size={40} style={{ color: '#8BD6D6' }}/>
-          </a>
+          <div className='flex flex-row space-x-4'>
+            <a href="https://www.facebook.com/profile.php?id=100092820558697" target="_blank" rel="noopener noreferrer">
+            <FaFacebookSquare size={40} style={{ color: '#8BD6D6' }}/>
+            </a>
+            <a href="https://www.instagram.com/svatebni.tance/" target="_blank" rel="noopener noreferrer">
+              <AiFillInstagram size={40} style={{ color: '#8BD6D6' }} />
+            </a>
+          </div>
         </div>
       </div>
     </div>

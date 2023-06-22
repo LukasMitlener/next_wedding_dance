@@ -25,7 +25,7 @@ const Blog = () => {
         </div>
 
         <div class="w-full">
-          <div class="flex flex-col space-y-16">
+          <div class="flex flex-col space-y-16 py-12">
             <div class="grid grid-cols-1 gap-6 md:grid-cols-4">
               <Image src={pic1} class="object-cover rounded-lg w-full h-full col-span-1 bg-center" alt="Kutty" loading="lazy" />
               <div class="col-span-1 md:col-span-3">

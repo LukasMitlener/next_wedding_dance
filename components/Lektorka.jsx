@@ -5,7 +5,7 @@ import { staggerContainer } from '../utils/motion';
 
 const Lektorka = () => {
   return (
-    <div name='lektorka' className='w-full mt-12 md:mt-28'>
+    <div id='lektorka' className='w-full mt-12 md:mt-28'>
       <motion.div 
         variants={staggerContainer}
         initial="hidden"

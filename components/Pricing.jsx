@@ -92,24 +92,25 @@ const Pricing = () => {
                 <h3 className="py-3">Cena</h3>
               </th>
               <th scope="col">
-                <p className="mb-3 font-bold text-2xl text-gray-700">
+                <p className="mb-3 font-bold text-lg md:text-2xl text-gray-700">
                   5 000 Kč
                 </p>
               </th>
               <th scope="col">
-                <p className="mb-3 font-bold text-2xl text-gray-700">
+                <p className="mb-3 font-bold text-lg md:text-2xl text-gray-700">
                   7 500 Kč
                 </p>
               </th>
               <th scope="col">
-                <p className="mb-3 font-bold text-2xl text-gray-700">
+                <p className="mb-3 font-bold text-lg md:text-2xl text-gray-700">
                   10 000 Kč
                 </p>
               </th>
             </tr>
           </tbody>
         </table>
-        <p className='pb-16'>* Každá další lekce + 1500 Kč</p>
+        <p>* Každá další lekce je za 1500 Kč</p>
+        <p className='mb-40'>* Samostatná konzultace je za 500 Kč</p>
       </div>
     </div>
   )

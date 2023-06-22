@@ -18,7 +18,7 @@ const Testimonials = () => {
 
             <motion.div 
                 variants={fadeIn('up', 'tween', 0.2, 1)}
-                className="flex flex-col items-center mt-3 mb-4 font-semibold"
+                className="flex flex-col items-center mt-4 mb-6 font-semibold"
             >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-20 h-20 text-bg-color mb-4">
 						<path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
