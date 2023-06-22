@@ -31,7 +31,7 @@ export default function Home() {
       <Blog />
       <Testimonials />
       <Pricing />
-      <hr className="mb-6 border-h-color" />
+
       <Cta />
       <Footer />
     </div>

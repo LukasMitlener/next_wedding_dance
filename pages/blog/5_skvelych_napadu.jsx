@@ -3,11 +3,33 @@
 import Image from 'next/image'
 import pic from '../../public/wedd3.png'
 import { FaFacebookSquare } from 'react-icons/fa';
+import { RiInstagramFill } from 'react-icons/ri';
+import { AiFillInstagram } from 'react-icons/ai';
+
 
 const Blog1 = () => {
   return (
-    <div class="px-4 py-24 mx-auto max-w-3xl">
-      <div class="w-full mx-auto mb-10 text-left ">
+    
+    <div class="px-4 pt-6 mb-6 mx-auto max-w-3xl">
+      <div className="mx-auto flex justify-between items-center"> 
+        <div className='flex flex-row w-100'>
+          <h2 className="font-parisienne text-h-color text-[40px] md:text-[44px]">
+          <a href="http://localhost:3000">Svatební tance</a>
+          </h2>
+        </div>
+
+
+        <ul className='flex font-semibold items-center text-2xl'>
+          <a className="pr-4" href="https://www.facebook.com/profile.php?id=100092820558697" target="_blank" rel="noopener noreferrer">
+            <FaFacebookSquare size={25} style={{ color: '#8BD6D6' }} />
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=100092820558697" target="_blank" rel="noopener noreferrer">
+            <RiInstagramFill size={27} style={{ color: '#8BD6D6' }} />
+          </a>
+        </ul>
+      </div>
+
+      <div class="w-full mx-auto mt-12 mb-10 text-left ">
         <div class="pb-6 mb-6 border-b border-gray-200">
           <h1 class="mb-3 text-3xl font-bold text-gray-900 md:leading-tight md:text-4xl">
             5 skvělých nápadů jak tancem oživit Vaší svatbu
@@ -35,18 +57,15 @@ const Blog1 = () => {
         <p className="mt-3 text-justify">
         Svatba je jedinečný a osobní výraz lásky a odevzdání, který se nese 
         na vlnách radosti a oslav. Tento den je naplněný nezapomenutelnými 
-        chvílemi, a proto je jen přirozené, že chcete, aby byl co nejvíce výjimečný 
-        a nezapomenutelný. Jedním ze způsobů, jak tomu dosáhnout, je zapojení tance. 
+        chvílemi, a proto je přirozené, že chcete, aby byl co nejvíce výjimečný 
+        a nezapomenutelný. Jedním ze způsobů, jak toho dosáhnout, je zapojení tance. 
         Tanec je univerzální jazyk radosti a slavení, který lze využít k oživení 
         jakékoli svatební oslavy.
         </p>
         <p className="mt-3 text-justify">
         V tomto článku vám představíme pět skvělých nápadů, jak do svatby zapojit 
-        tanec tak, aby vytvořil nejen báječnou podívanou pro hosty, ale také aby tento 
-        den pro vás a vašeho partnera učinil ještě více speciálním. Od překvapivých 
-        tanečních vstupů přes romantické valčíky až po zábavné taneční bitvy - připravili 
-        jsme pro vás řadu inspirativních videí, která vám pomohou učinit váš velký den 
-        ještě významnějším. <a href="http://localhost:3000" class="text-h-color font-semibold hover:text-h-color/80">Vydáme se společně na cestu plnou hudby, radosti a mnoha 
+        tanec tak, aby vytvořil nejen báječnou podívanou pro hosty, ale také, aby se tento 
+        den pro vás a vašeho partnera stal ještě více speciálním.  <a href="http://localhost:3000" class="text-h-color font-bold hover:text-h-color/90">Vydáme se společně na cestu plnou hudby, radosti a mnoha 
         tanečních kroků.</a>
         </p>
 
@@ -134,9 +153,14 @@ const Blog1 = () => {
           COPYRIGHT © 2023 SVATEBNÍ TANCE
           </p>
 
-          <a href="https://www.facebook.com/profile.php?id=100092820558697" target="_blank" rel="noopener noreferrer">
-          <FaFacebookSquare size={40} style={{ color: '#8BD6D6' }}/>
-          </a>
+          <div className='flex flex-row space-x-4'>
+            <a href="https://www.facebook.com/profile.php?id=100092820558697" target="_blank" rel="noopener noreferrer">
+            <FaFacebookSquare size={40} style={{ color: '#8BD6D6' }}/>
+            </a>
+            <a href="https://www.instagram.com/svatebni.tance/" target="_blank" rel="noopener noreferrer">
+              <AiFillInstagram size={40} style={{ color: '#8BD6D6' }} />
+            </a>
+          </div>
         </div>
       </div>
     </div>
