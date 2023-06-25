@@ -17,6 +17,8 @@ export default function Home() {
         <title>Svatební tance</title>
         <meta name="description" content="Kurzy netradičních svatebních tanců vytvořených na míru"></meta>
         <meta name="keywords" content="Svatební tance, první tanec, netradiční tance, kurzy tanců, svatební příprava, taneční lekce, svatební choreografie, taneční kurs, svatební tanec na míru, osobní taneční lekce, profesionální choreografie, jedinečný svatební tanec, kreativní svatební tance, svatební tanec pro páry, taneční trénink, taneční instruktor, překvapivý svatební tanec, svatební tanec lekce, tanec družiček"></meta>
+        <meta property="og:title" content="Svatební tance - Kurzy na míru"></meta>
+        <meta property="og:description" content="Nabízíme kurzy netradičních svatebních tanců vytvořených na míru. Připravte se na svůj velký den s naší profesionální taneční lektorkou!"></meta>
         <meta
           property="og:image"
           content="https://svatebnitance.cz/images/wedd6.png"

@@ -14,7 +14,7 @@ const Blog1 = () => {
       <div className="mx-auto flex justify-between items-center"> 
         <div className='flex flex-row w-100'>
           <h2 className="font-parisienne text-h-color text-[40px] md:text-[44px]">
-          <a href="http://localhost:3000">Svatební tance</a>
+          <a href="https://svatebnitance.cz">Svatební tance</a>
           </h2>
         </div>
 
@@ -147,7 +147,7 @@ const Blog1 = () => {
 
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-great-vibes font-extrabold text-[40px] text-h-color">
-          <a href="http://localhost:3000">Svatební tance</a>
+          <a href="https://svatebnitance.cz">Svatební tance</a>
           </h4>
           <p className="font-normal text-[14px] text-gray-700 opacity-50">
           COPYRIGHT © 2023 SVATEBNÍ TANCE

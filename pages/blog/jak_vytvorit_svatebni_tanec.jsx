@@ -14,7 +14,7 @@ const Blog2 = () => {
       <div className="mx-auto flex justify-between items-center"> 
         <div className='flex flex-row w-100'>
           <h2 className="font-parisienne text-h-color text-[40px] md:text-[44px]">
-          <a href="http://localhost:3000">Svatební tance</a>
+          <a href="https://svatebnitance.cz">Svatební tance</a>
           </h2>
         </div>
 
@@ -95,7 +95,7 @@ const Blog2 = () => {
         nenajmout profesionálního choreografa, který může vytvořit choreografii na základě vaší volby písně, osobnosti a 
         tanečních zkušeností? Profesionální choreograf má zkušenosti a znalosti potřebné k vytvoření taneční choreografie, 
         která je nejen vizuálně atraktivní, ale také přizpůsobená vašim schopnostem a preferencím. </p>
-        <p className="mb-4 text-justify">Naše <a href="http://localhost:3000" class="text-h-color font-bold hover:text-h-color/90">
+        <p className="mb-4 text-justify">Naše <a href="https://svatebnitance.cz" class="text-h-color font-bold hover:text-h-color/90">
         zkušená lektorka</a> je k dispozici, aby vám poskytla podporu a odborné vedení, 
         které potřebujete. S citlivým přístupem dle vašich potřeb a přání vám pomůže vytvořit taneční choreografii, 
         která bude jedním z vrcholů vašeho výjimečného dne. </p>
@@ -116,7 +116,7 @@ const Blog2 = () => {
 
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-great-vibes font-extrabold text-[40px] text-h-color">
-          <a href="http://localhost:3000">Svatební tance</a>
+          <a href="https://svatebnitance.cz">Svatební tance</a>
           </h4>
           <p className="font-normal text-[14px] text-gray-700 opacity-50">
           COPYRIGHT © 2023 SVATEBNÍ TANCE
