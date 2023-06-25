@@ -20,11 +20,11 @@ const Footer = () => (
       <div className="flex flex-col">
         <div className="my-12 h-[2px] bg-h-color" />
 
-        <div className="flex items-center justify-between flex-wrap gap-4">
+        <div className="flex justify-center items-center md:justify-between flex-wrap gap-4">
           <h4 className="font-great-vibes font-extrabold text-[40px] text-h-color">
             Svatební tance
           </h4>
-          <p className="font-normal text-[14px] text-grey-700 opacity-50">
+          <p className="font-normal text-[14px] text-gray-700 opacity-50">
           COPYRIGHT © 2023 SVATEBNÍ TANCE
           </p>
           <div className='flex flex-row space-x-4'>

@@ -9,7 +9,7 @@ const Lektorka = () => {
         
         <div className='px-4 py-12'>
           <h2>
-              <span className="uppercase tracking-[20px] bg-clip-border font-black"><span className='text-h-color'>naše</span> lektorka</span>
+              <span className="uppercase font-black"><span className='text-h-color'>naše</span> lektorka</span>
           </h2>
         </div>
 

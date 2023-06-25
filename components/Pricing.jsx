@@ -6,7 +6,7 @@ const Pricing = () => {
       <div className="max-w-[1440px] mx-auto px-6 md:pt-12 md:pb-18 md:px-12">
         <div className='px-4 pt-12 pb-16'>
           <h2>
-              <span className="uppercase tracking-[20px] bg-clip-border font-black"><span className='text-h-color'>náš</span> ceník</span>
+              <span className="uppercase font-black"><span className='text-h-color'>náš</span> ceník</span>
           </h2>
         </div>
         <table className="w-full">
@@ -18,13 +18,13 @@ const Pricing = () => {
                 <h3 className="py-3">Počet lekcí (1,5h)</h3>
               </th>
               <td>
-                <span className="font-bold text-2xl text-gray-700">3</span>
+                <span className="font-bold text-lg md:text-2xl text-gray-700">3</span>
               </td>
               <td>
-                <span className="font-bold text-2xl text-gray-700">5</span>
+                <span className="font-bold text-lg md:text-2xl text-gray-700">5</span>
               </td>
               <td>
-                <span className="font-bold text-2xl text-gray-700">7</span>
+                <span className="font-bold text-lg md:text-2xl text-gray-700">7</span>
               </td>
             </tr>
             <tr>
@@ -92,25 +92,25 @@ const Pricing = () => {
                 <h3 className="py-3">Cena</h3>
               </th>
               <th scope="col">
-                <p className="mb-3 font-bold text-lg md:text-2xl text-gray-700">
+                <p className="mb-3 font-semibold text-base md:text-2xl text-gray-700">
                   5 000 Kč
                 </p>
               </th>
               <th scope="col">
-                <p className="mb-3 font-bold text-lg md:text-2xl text-gray-700">
+                <p className="mb-3 font-semibold text-base md:text-2xl text-gray-700">
                   7 500 Kč
                 </p>
               </th>
               <th scope="col">
-                <p className="mb-3 font-bold text-lg md:text-2xl text-gray-700">
+                <p className="mb-3 font-semibold text-base md:text-2xl text-gray-700">
                   10 000 Kč
                 </p>
               </th>
             </tr>
           </tbody>
         </table>
-        <p>* Každá další lekce je za 1500 Kč</p>
-        <p className='mb-40'>* Samostatná konzultace je za 500 Kč</p>
+        <p className='text-sm md:text-lg'>* Každá další lekce je za 1500 Kč</p>
+        <p className='text-sm md:text-lg md:mb-40'>* Samostatná konzultace je za 500 Kč</p>
       </div>
     </div>
   )

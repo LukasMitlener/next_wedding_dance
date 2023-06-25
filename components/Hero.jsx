@@ -12,7 +12,7 @@ const Hero = () => (
     <div className="top-0 left-0 w-full h-full bg-cover bg-center">
       <Image
         src={wedding}
-        alt="hero_cover"
+        alt="zamilovaný pár"
         className="relative w-full h-[500px] lg:h-screen object-cover z-10"
       />
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-20 z-20"></div>

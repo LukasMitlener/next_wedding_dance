@@ -1,7 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import foto from '../public/wedd.png'
+import Image from 'next/image';
 
 const About = () => {
   return (
@@ -18,23 +18,19 @@ const About = () => {
             <p className='text-justify mb-3'><span className='font-bold'>Pak jste na správném místě!</span></p>
             <p className='text-justify mb-3'><span className='font-bold'>Co nabízíme?</span></p>
             <ul className='list-disc ml-5'>
-              <li className='text-gray-700 text-justify mb-3'>Svatební tance na míru vytvořené z <span className='font-bold'>různých tanečních stylů</span> (od hip-hopu až po lidové tance)</li>
-              <li className='text-gray-700 text-justify mb-3'><span className='font-bold'>Vytvoření hudebního mixu dle Vašich představ</span>, případně můžeme playlist navrhnout sami</li>
-              <li className='text-gray-700 text-justify mb-3'><span className='font-bold'>Zkušenou taneční lektorku</span>, která vás naučí nejen nové kroky, ale také jak tancovat s radostí a sebevědomím a přizpůsobí tanec vaší taneční úrovni.</li>
+              <li className='text-gray-700 text-justify mb-3 cursor-default'>Svatební tance na míru vytvořené z <span className='font-bold'>různých tanečních stylů</span> (od hip-hopu až po lidové tance)</li>
+              <li className='text-gray-700 text-justify mb-3 cursor-default'><span className='font-bold'>Vytvoření hudebního mixu dle Vašich představ</span>, případně můžeme playlist navrhnout sami</li>
+              <li className='text-gray-700 text-justify mb-3 cursor-default'><span className='font-bold'>Zkušenou taneční lektorku</span>, která vás naučí nejen nové kroky, ale také jak tancovat s radostí a sebevědomím a přizpůsobí tanec vaší taneční úrovni.</li>
             </ul>
           </div>
           <div className='flex flex-col justify-center md:items-start w-full'>
-            <motion.img
-              initial={{
-                x: +400,
-              }}
-              transition={{ duration: 1.2 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
+            <Image
+              width={1000}
+              height={1000}
               src={foto.src}
               alt="svatební pár tančí"
-              className="rounded-lg object-cover md:h-full lg:h-[600px]"
-            ></motion.img>
+              className="rounded-lg object-cover h-full md:h-full lg:h-[600px]"
+            />
           </div>
         </div>
       </div>  

@@ -24,11 +24,11 @@ const Testimonials = () => {
 						<path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
 						<path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
 				</svg>
-                <p className='text-2xl font-semibold text-gray-800'>
+                <p className='text-xl md:text-2xl font-semibold text-gray-800'>
                     Páju bychom chtěli doporučit všem, kteří by rádi převapili své svatební hosty originálním tancem. 
                     Je velká profesionálka, pomohla nám s výběrem hudby a "ušila" nám tanec přímo na míru. 
                     Byla jsem těhotná a manžel není pohybově úplně nadaný a i přesto byl výsledek skvělý. 
-                    Hosté po ukončení tance skandovali "opakovat...opakovat..." 😃
+                    Hosté po ukončení tance skandovali "opakovat!... opakovat!..." 😃
                     Tréninkové hodiny pro nás byly krásným únikem z předsvatebního shonu.
                 </p>
             </motion.div>
