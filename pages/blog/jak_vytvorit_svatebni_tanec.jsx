@@ -114,7 +114,7 @@ const Blog2 = () => {
       <div className="flex flex-col">
         <div className="mt-12 mb-6 h-[2px] bg-h-color" />
 
-        <div className="flex items-center justify-between flex-wrap gap-4">
+        <div className="flex justify-center items-center md:justify-between flex-wrap gap-4">
           <h4 className="font-great-vibes font-extrabold text-[40px] text-h-color">
           <a href="https://svatebnitance.cz">Svatební tance</a>
           </h4>

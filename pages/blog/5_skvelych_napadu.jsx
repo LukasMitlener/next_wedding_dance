@@ -74,13 +74,10 @@ const Blog1 = () => {
           “Hmmm nudnej ploužák,” říkají si někteří svatebčané. "On ten Tonda byl vždycky takovej trochu suchar”...”Zííív 🥱”... A PAK TO PŘIJDE!🤩🤩🤩... A Tonda všem vytře zrak 😎
         </p>
 
-        <div className="flex justify-center mt-5 mb-20">
+        <div className="pt-[56.25%] embed-responsive-16by9 relative w-full rounded-lg overflow-hidden shadow-2xl mt-5 mb-12">
           <iframe
-            width="768"
-            height="415"
+            className="embed-responsive-item absolute top-0 right-0 bottom-0 left-0 w-full h-full "
             src="https://www.youtube.com/embed/Gx6_LorZRNQ"
-
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />
         </div>
@@ -89,12 +86,10 @@ const Blog1 = () => {
           Chcete překvapit svého nastávajícího tancem s družičkami? 💃
         </p>
 
-        <div className="flex justify-center mt-5 mb-20">
+        <div className="pt-[56.25%] embed-responsive-16by9 relative w-full rounded-lg overflow-hidden shadow-2xl mt-5 mb-12">
           <iframe
-            width="768"
-            height="415"
+            className="embed-responsive-item absolute top-0 right-0 bottom-0 left-0 w-full h-full "
             src="https://www.youtube.com/embed/09WbvRtAQUY"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />
         </div>
@@ -103,12 +98,10 @@ const Blog1 = () => {
           Když nechce tančit na svatbě váš nastávající, můžete to zkusit roztočit na parketu třeba s taťkou 😜
         </p>
 
-        <div className="flex justify-center mt-5 mb-20">
+        <div className="pt-[56.25%] embed-responsive-16by9 relative w-full rounded-lg overflow-hidden shadow-2xl mt-5 mb-12">
           <iframe
-            width="768"
-            height="415"
+            className="embed-responsive-item absolute top-0 right-0 bottom-0 left-0 w-full h-full "
             src="https://www.youtube.com/embed/t-BHDpP5opA"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />
         </div>
@@ -117,12 +110,10 @@ const Blog1 = () => {
           Jó hříšňák! To je klasika, která nikdy neomrzí ❤️
         </p>
 
-        <div className="flex justify-center mt-5 mb-20">
+        <div className="pt-[56.25%] embed-responsive-16by9 relative w-full rounded-lg overflow-hidden shadow-2xl mt-5 mb-12">
           <iframe
-            width="768"
-            height="415"
+            className="embed-responsive-item absolute top-0 right-0 bottom-0 left-0 w-full h-full "
             src="https://www.youtube.com/embed/ZYhlm9GTAQ0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />
         </div>
@@ -132,12 +123,10 @@ const Blog1 = () => {
           Nebo snad chce nevěstě udělat překvapení ženich se svou družbou? To je výzva, pánové! 😜
         </p>
 
-        <div className="flex justify-center mt-5 mb-10">
+        <div className="pt-[56.25%] embed-responsive-16by9 relative w-full rounded-lg overflow-hidden shadow-2xl mt-5">
           <iframe
-            width="768"
-            height="415"
+            className="embed-responsive-item absolute top-0 right-0 bottom-0 left-0 w-full h-full "
             src="https://www.youtube.com/embed/sF9XBYHrwtk"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />
         </div>
@@ -145,7 +134,7 @@ const Blog1 = () => {
       <div className="flex flex-col">
         <div className="mt-12 mb-6 h-[2px] bg-h-color" />
 
-        <div className="flex items-center justify-between flex-wrap gap-4">
+        <div className="flex justify-center items-center md:justify-between flex-wrap gap-4">
           <h4 className="font-great-vibes font-extrabold text-[40px] text-h-color">
           <a href="https://svatebnitance.cz">Svatební tance</a>
           </h4>
