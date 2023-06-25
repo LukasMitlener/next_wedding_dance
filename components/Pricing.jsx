@@ -3,7 +3,7 @@ import React from 'react'
 const Pricing = () => {
   return (
     <div name='pricing' className='w-full mt-12 md:mt-24'>
-      <div className="max-w-[1440px] mx-auto px-6 md:px-12">
+      <div className="max-w-[1440px] mx-auto px-6 md:pt-12 md:pb-18 md:px-12">
         <div className='px-4 pt-12 pb-16'>
           <h2>
               <span className="uppercase tracking-[20px] bg-clip-border font-black"><span className='text-h-color'>náš</span> ceník</span>
