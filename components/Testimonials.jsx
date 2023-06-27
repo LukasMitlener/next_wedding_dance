@@ -28,7 +28,7 @@ const Testimonials = () => {
                     Páju bychom chtěli doporučit všem, kteří by rádi převapili své svatební hosty originálním tancem. 
                     Je velká profesionálka, pomohla nám s výběrem hudby a "ušila" nám tanec přímo na míru. 
                     Byla jsem těhotná a manžel není pohybově úplně nadaný a i přesto byl výsledek skvělý. 
-                    Hosté po ukončení tance skandovali "opakovat!... opakovat!..." 😃
+                    Hosté po ukončení tance skandovali "opakovat!... opakovat!" 😃
                     Tréninkové hodiny pro nás byly krásným únikem z předsvatebního shonu.
                 </p>
             </motion.div>
