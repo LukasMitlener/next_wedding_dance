@@ -21,7 +21,7 @@ export default function Home() {
         <meta property="og:description" content="Nabízíme kurzy netradičních svatebních tanců vytvořených na míru. Připravte se na svůj velký den s naší profesionální taneční lektorkou!"></meta>
         <meta
           property="og:image"
-          content="https://svatebnitance.cz/images/wedd6.png"
+          content="https://svatebnitance.cz/wedd6.png"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
