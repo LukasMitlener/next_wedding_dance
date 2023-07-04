@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import { navVariants } from '../utils/motion';
 import Image from 'next/image';
-import wedding from "../public/wedd2.png"
+import wedding from "../public/wedd2.webp"
 import Navbar1 from './Navbar';
 
 

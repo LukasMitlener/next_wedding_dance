@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image'
-import couple from "../public/wedd6.png"
+import couple from "../public/wedd6.webp"
 import { BsFillPhoneVibrateFill } from 'react-icons/bs';
 import { MdAlternateEmail } from 'react-icons/md';
 

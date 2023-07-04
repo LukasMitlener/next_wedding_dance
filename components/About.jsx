@@ -1,6 +1,6 @@
 'use client';
 
-import foto from '../public/wedd.png'
+import foto from '../public/wedd.webp'
 import Image from 'next/image';
 
 const About = () => {
