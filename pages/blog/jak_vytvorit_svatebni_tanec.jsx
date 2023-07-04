@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image'
-import pic from '../../public/wedd4.png'
+import pic from '../../public/wedd4.webp'
 import { FaFacebookSquare } from 'react-icons/fa';
 import { RiInstagramFill } from 'react-icons/ri';
 import { AiFillInstagram } from 'react-icons/ai';
