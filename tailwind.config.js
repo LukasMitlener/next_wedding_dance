@@ -17,13 +17,14 @@ module.exports = {
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
 
-        "great-vibes": ['Great Vibes', "sans-serif"]
+        "great-vibes": ['Great Vibes', "sans-serif"],
+        parisienne: ['Parisienne', "sans-serif"]
       },
     },
     screens: {
       sm: '768px',
       md: '1060px',
-      lg: '1200px',
+      lg: '1330px',
       xl: '1700px',
     },
   },
