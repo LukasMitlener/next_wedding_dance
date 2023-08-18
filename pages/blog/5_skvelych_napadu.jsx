@@ -63,7 +63,7 @@ const Blog1 = () => {
         jakékoli svatební oslavy.
         </p>
         <p className="mt-3 text-justify">
-        V tomto článku vám představíme pět skvělých nápadů, jak do svatby zapojit 
+        V tomto článku vám představím pět skvělých nápadů, jak do svatby zapojit 
         tanec tak, aby vytvořil nejen báječnou podívanou pro hosty, ale také, aby se tento 
         den pro vás a vašeho partnera stal ještě více speciálním.  <a href="http://localhost:3000" class="text-h-color font-bold hover:text-h-color/90">Vydáme se společně na cestu plnou hudby, radosti a mnoha 
         tanečních kroků.</a>

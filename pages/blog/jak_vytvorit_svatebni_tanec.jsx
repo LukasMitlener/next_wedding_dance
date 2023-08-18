@@ -76,7 +76,7 @@ const Blog2 = () => {
         na svých svatbách. To vám může poskytnout nejen inspiraci, ale také jasnější představu o tom, co je v současné době 
         populární a co by mohlo oslnit vaše svatební hosty. Díky sledování videí můžete také zjistit, jaké prvky tance vás 
         nejvíce oslovují a co byste chtěli začlenit do své vlastní choreografie. V neposlední řadě je to také skvělá příležitost, 
-        jak se poradit se svým partnerem nebo členy svatební party a společně vybrat, jaký styl tance byste chtěli předvést. 
+        jak se poradit se svým partnerem nebo svatebčany a společně vybrat, jaký styl tance byste chtěli předvést. 
         YouTube je jedním z nejlepších míst, kde začít s hledáním.  </p>
 
         <h2 className="text-2xl text-left font-bold my-4 mt-12">Naučte se nějaké kroky</h2>
@@ -95,15 +95,15 @@ const Blog2 = () => {
         nenajmout profesionálního choreografa, který může vytvořit choreografii na základě vaší volby písně, osobnosti a 
         tanečních zkušeností? Profesionální choreograf má zkušenosti a znalosti potřebné k vytvoření taneční choreografie, 
         která je nejen vizuálně atraktivní, ale také přizpůsobená vašim schopnostem a preferencím. </p>
-        <p className="mb-4 text-justify">Naše <a href="https://svatebnitance.cz" class="text-h-color font-bold hover:text-h-color/90">
-        zkušená lektorka</a> je k dispozici, aby vám poskytla podporu a odborné vedení, 
-        které potřebujete. S citlivým přístupem dle vašich potřeb a přání vám pomůže vytvořit taneční choreografii, 
+        <p className="mb-4 text-justify">Coby <a href="https://svatebnitance.cz" class="text-h-color font-bold hover:text-h-color/90">
+        zkušená lektorka</a> vám poskytnu podporu a odborné vedení. 
+        S citlivým přístupem dle vašich potřeb a přání vám pomůžu vytvořit taneční choreografii, 
         která bude jedním z vrcholů vašeho výjimečného dne. </p>
 
         <h2 className="text-2xl text-left font-bold my-4 mt-12">Trénujte a bavte se</h2>
         
         <p className="mb-4 text-justify">Svatební tanec vyžaduje trénink! 
-        Doporučujeme si dát alespoň 3 lekce svatebního tance a pečlivou domácí přípravu. Je dobré nastavit si pravidelné tréninky 
+        Doporučuji mít alespoň 3 lekce svatebního tance a pečlivou domácí přípravu. Je dobré nastavit si pravidelné tréninky 
         až do svatby. Tím nejenže budete schopni vystoupit se sebevědomím na své svatbě, ale skutečně si užijete proces učení tance 
         s vaším budoucím manželem/manželkou. Bude to úžasný zážitek a odreagování před vaším velkým dnem. 
         Užijte si to! </p>
