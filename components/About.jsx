@@ -16,11 +16,11 @@ const About = () => {
             <p className='text-justify mb-3'>Nevěsty, chcete překvapit svého nastávajícho <span className='font-bold'>půlnočním tanečním překvapením</span>, třeba i v obklopení družiček?</p>
             <p className='text-justify mb-3'>Máte radši <span className='font-bold'>netradiční, zábavné a moderní tance</span>, které udělají z vašeho svatebního dne jedinečný zážitek nejen pro vás dva, ale i pro vaše hosty?</p>
             <p className='text-justify mb-3'><span className='font-bold'>Pak jste na správném místě!</span></p>
-            <p className='text-justify mb-3'><span className='font-bold'>Co nabízíme?</span></p>
+            <p className='text-justify mb-3'><span className='font-bold'>Co nabízím?</span></p>
             <ul className='list-disc ml-5'>
               <li className='text-gray-700 text-justify mb-3 cursor-default'>Svatební tance na míru vytvořené z <span className='font-bold'>různých tanečních stylů</span> (od hip-hopu až po lidové tance)</li>
-              <li className='text-gray-700 text-justify mb-3 cursor-default'><span className='font-bold'>Vytvoření hudebního mixu dle Vašich představ</span>, případně můžeme playlist navrhnout sami</li>
-              <li className='text-gray-700 text-justify mb-3 cursor-default'><span className='font-bold'>Zkušenou taneční lektorku</span>, která vás naučí nejen nové kroky, ale také jak tancovat s radostí a sebevědomím a přizpůsobí tanec vaší taneční úrovni.</li>
+              <li className='text-gray-700 text-justify mb-3 cursor-default'><span className='font-bold'>Vytvoření hudebního mixu dle vašich představ</span>, případně mohu playlist navrhnout sama</li>
+              <li className='text-gray-700 text-justify mb-3 cursor-default'><span className='font-bold'>Své dlouholeté lektorské zkušenosti.</span> Naučím vás nejen nové kroky, ale také jak tancovat s radostí a sebevědomím a přizpůsobím tanec vaší taneční úrovni.</li>
             </ul>
           </div>
           <div className='flex flex-col justify-center md:items-start w-full'>

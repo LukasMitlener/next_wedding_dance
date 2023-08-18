@@ -12,7 +12,7 @@ const Blog = () => {
       
         <div className='px-4 py-12'>
           <h2>
-              <span className="uppercase font-black"><span className='text-h-color'>náš</span> blog</span>
+              <span className="uppercase font-black"><span className='text-h-color'>můj</span> blog</span>
           </h2>
         </div>
 

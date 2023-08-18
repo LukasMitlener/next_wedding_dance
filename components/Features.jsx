@@ -23,7 +23,7 @@ const Features = () => {
             <p className="text-center text-4xl">💪</p>
             <h3 class="mb-3 text-2xl font-extrabold leading-tight text-gray-800">Boostněte si sebevědomí!</h3>
             <p class="text-gray-700 font-semibold">
-            Naše lektorka vás naučí plynule a sebevědomě tančit pro ten nejdůležitější tanec ve vašem životě. 
+            Naučím vás plynule a sebevědomě tančit pro ten nejdůležitější tanec ve vašem životě. 
             </p>
           </div>
         </div>
