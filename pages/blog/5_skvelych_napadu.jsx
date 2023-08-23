@@ -32,7 +32,7 @@ const Blog1 = () => {
       <div class="w-full mx-auto mt-12 mb-10 text-left ">
         <div class="pb-6 mb-6 border-b border-gray-200">
           <h1 class="mb-3 text-3xl font-bold text-gray-900 md:leading-tight md:text-4xl">
-            5 skvělých nápadů jak tancem oživit Vaší svatbu
+            5 skvělých nápadů, jak tancem oživit vaši svatbu
           </h1>
           <p class="text-base text-gray-500">18. června, 2023 — Pája Vejnarová</p>
         </div>
