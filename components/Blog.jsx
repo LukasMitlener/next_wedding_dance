@@ -22,7 +22,7 @@ const Blog = () => {
               <Image src={pic1} class="object-cover rounded-lg w-full h-full col-span-1 bg-center" alt="Kutty" loading="lazy" />
               <div class="col-span-1 md:col-span-3">
                 <h2 class="mb-2 text-2xl font-extrabold leading-snug text-gray-800 text-start">
-                <Link href="https://svatebnitance.cz/blog/5_skvelych_napadu" class="text-gray-700 hover:text-h-color">5 skvělých nápadů jak tancem oživit Vaší svatbu (videa)</Link>
+                <Link href="https://svatebnitance.cz/blog/5_skvelych_napadu" class="text-gray-700 hover:text-h-color">5 skvělých nápadů, jak tancem oživit vaši svatbu (videa)</Link>
                 </h2>
                 <p class="text-justify mb-3 text-gray-700">
                 V tomto článku vám představíme pět skvělých nápadů, jak do svatby zapojit tanec tak, 
