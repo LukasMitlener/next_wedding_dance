@@ -36,7 +36,7 @@ const Blog1 = () => {
           </h1>
           <p class="text-base text-gray-500">18. června, 2023 — Pája Vejnarová</p>
         </div>
-        <div class="flex items-center mb-6 space-x-2">
+        {/*<div class="flex items-center mb-6 space-x-2">
           <p class="text-gray-600">Sdílet článek</p>
           <a 
             href="https://www.facebook.com/sharer/sharer.php?u=https://www.svatebnitance.cz/blog/5_skvelych_napadu" 
@@ -49,7 +49,7 @@ const Blog1 = () => {
             </svg>
           </a>
           
-        </div>
+        </div>*/}
         <Image src={pic} class="object-cover w-full h-full bg-center rounded" alt="svatební pár tančí" />
       </div>
 

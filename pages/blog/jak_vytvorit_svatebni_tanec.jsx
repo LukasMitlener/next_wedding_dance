@@ -36,7 +36,7 @@ const Blog2 = () => {
           </h1>
           <p class="text-base text-gray-500">20. června, 2023 — Pája Vejnarová</p>
         </div>
-        <div class="flex items-center mb-6 space-x-2">
+        {/*<div class="flex items-center mb-6 space-x-2">
           <p class="text-gray-600">Sdílet článek</p>
           <a 
           href="https://www.facebook.com/sharer/sharer.php?u=https://www.svatebnitance.cz/blog/jak_vytvorit_svatebni_tanec" 
@@ -49,14 +49,14 @@ const Blog2 = () => {
             </svg>
           </a>
           
-        </div>
+        </div>*/}
         <Image src={pic} class="object-cover w-full h-full bg-center rounded" alt="svatební pár tančí" />
       </div>
 
       <div class="w-full mx-auto">
         <p className="mb-4 text-justify">Svatební tance plné překvapení zažívají v současné době obrovský nárůst popularity. 
         Mnoho párů se rozhoduje odklonit od klasického prvního tance a místo toho se vydává na cestu svatebních choreografií 
-        za doprovodu různých hudbeních stylů, jako je hip-hop nebo pop.</p>
+        za doprovodu různých hudebních stylů, jako je hip-hop nebo pop.</p>
         <p className="mb-4 text-justify">V každém svatebním dni je jedním z vrcholů okamžik, kdy novomanželé poprvé tančí 
         jako manželský pár. Tradičně bylo očekáváno, že tento tanec bude romantický a vážný, ale moderní páry hledají způsoby, 
         jak přidat s trochou odvahy do svého svatebního dne více kreativity. A co by mohlo být lepší než vytvořit svatební tanec, 
