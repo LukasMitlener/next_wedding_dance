@@ -15,7 +15,7 @@ const Lektorka = () => {
 
         
         <div className='px-0 md:px-10'>
-          <p className='text-justify mb-3'>Jmenuji se Pavlína Vejnarová, je mi 34 let, jsem taneční lektorka z Prahy a moc ráda se budu podílet na Vašem jedinečném svatebním dnu ❤️</p>
+          <p className='text-justify mb-3'>Jmenuji se Pavlína Mitlener, je mi 36 let, jsem taneční lektorka z Prahy a moc ráda se budu podílet na Vašem jedinečném svatebním dnu ❤️</p>
           <p className='text-justify mb-3'>Ke každému páru přistupuji individuálně dle Vašich požadavků a přání a věřím, že společně natrénujeme svatební tanec, s kterým budete spokojeni a který si dokážete na svatbě užít. </p>
           <p className='text-justify mb-3'>Aktuálně účinkuji v pražských muzikálech v divadle Kalich (Krysař), Hybernia (Galileo, Mefisto), v Kongresovém centru (Děti ráje), kde jsem byla též asistentkou choreografky. Hraji v Černém divadle Jiřího Srnce.</p>
           <p className='text-justify mb-3'>Tancuji od svého raného dětství. Během svého života jsem prošla snad všemi tanečním styly. Nejvíce mě oslovuje contemporary a street dance. </p>

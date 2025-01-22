@@ -6,7 +6,7 @@ const Pricing = () => {
       <div className="max-w-[1440px] mx-auto px-6 md:pt-12 md:pb-18 md:px-12">
         <div className='px-4 py-12'>
           <h2>
-              <span className="uppercase font-black"><span className='text-h-color'>ceník</span> 2023</span>
+              <span className="uppercase font-black"><span className='text-h-color'>ceník</span> 2025</span>
           </h2>
         </div>
         <table className="w-full">
@@ -24,10 +24,10 @@ const Pricing = () => {
             </tr>
             <tr>
               <th scope="row" className="text-left">
-                <h3 className="py-3">1,5 hod. lekce*</h3>
+                <h3 className="py-3">1, 5 hod. lekce*</h3>
               </th>
               <td>
-                <span className="font-bold text-lg md:text-2xl text-gray-700">1 500 Kč</span>
+                <span className="font-bold text-lg md:text-2xl text-gray-700">1 800 Kč</span>
               </td>
               
             </tr>
@@ -36,7 +36,7 @@ const Pricing = () => {
                 <h3 className="py-3">Tvorba choreografie**</h3>
               </th>
               <td>
-                <span className="font-bold text-lg md:text-2xl text-gray-700">1 000 - 3 000 Kč</span>
+                <span className="font-bold text-lg md:text-2xl text-gray-700">1 500 - 3 000 Kč</span>
               </td>
               
             </tr>
